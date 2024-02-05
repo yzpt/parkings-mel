@@ -49,7 +49,7 @@ gcloud iam service-accounts keys create key.json --iam-account=$SERVICE_ACCOUNT@
 # list billing accounts
 gcloud billing accounts list
 # Linking billing accout to the project
-gcloud billing projects link $PROJECT_ID --billing-account=016507-8E76F6-937B68
+gcloud billing projects link $PROJECT_ID --billing-account=******-******-******
 
 
 # Data collection
