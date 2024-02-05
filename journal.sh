@@ -52,7 +52,7 @@ gcloud billing accounts list
 gcloud billing projects link $PROJECT_ID --billing-account=******-******-******
 
 
-# Data collection
+# 2. Data collection
 
 # Enabling APIs: Build, Functions, Pub/Sub, Scheduler
 gcloud services enable cloudfunctions.googleapis.com
@@ -70,4 +70,38 @@ bq mk $DATASET_NAME
 bq rm -r -f $DATASET_NAME
 
 # --> nb_bigquery.ipynb
+
+# 3. Cloud Function
+# --> fct_extract/
+mkdir fct_extract
+touch fct_extract/main.py
+code fct_extract/main.py
+cp key.json fct_extract/key.json
+
+# fct venv
+python3 -m venv venv_fct_extract
+source venv_fct_extract/bin/activate
+pip install google-cloud-bigquery
+pip freeze > fct_extract/requirements.txt
+
+python3 fct_extract/main.py
+# --> test ok
+
+# zip the fct_extract folder
+cd fct_extract
+zip -r fct_extract.zip .
+cd ..
+mv fct_extract/fct_extract.zip .
+
+# upload the zip to the function bucket
+gsutil cp fct_extract.zip $FUNCTION_BUCKET
+
+# create pub/sub topic
+gcloud pubsub topics create parkings_mel_topic
+
+# job scheduler
+gcloud scheduler jobs create pubsub parkings_mel_job --schedule="*/5 * * * *" --topic=parkings_mel_topic --message-body="parkings_mel message" --time-zone="Europe/Paris" --location="europe-west2"
+
+# cloud function deployment
+gcloud functions deploy parkings_mel_function --runtime=python310 --trigger-topic=parkings_mel_topic --source=$FUNCTION_BUCKET/fct_extract.zip --service-account=$SERVICE_ACCOUNT_EMAIL --region=$REGION --entry-point=parkings_mel_pubsub
 
