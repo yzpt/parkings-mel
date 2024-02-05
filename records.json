@@ -1,0 +1,649 @@
+{
+    "total_count": 28,
+    "results": [
+        {
+            "libelle": "Parking Rihour-Printemps",
+            "adresse": "Place Rihour",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 297,
+            "max": 300,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0012",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0613622559941,
+                        50.635431974724
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "295"
+        },
+        {
+            "libelle": "Parking Euralille",
+            "adresse": "164 Avenue Willy Brandt",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 1295,
+            "max": 2873,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0006",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0730712109881,
+                        50.636803300033
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "1295"
+        },
+        {
+            "libelle": "Parking TRIOLO",
+            "adresse": "Avenue Paul Langevin",
+            "ville": "Villeneuve d'Ascq",
+            "etat": "FERME",
+            "dispo": 0,
+            "max": 1400,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "VAQ0001",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1384127085851,
+                        50.614282084766
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "FERME"
+        },
+        {
+            "libelle": "Parking Vieux Lille",
+            "adresse": "Avenue du Peuple Belge",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 49,
+            "max": 246,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0010",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0640695145052,
+                        50.641600035859
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "45"
+        },
+        {
+            "libelle": "Parking Mac Arthur Glen (Gambetta)",
+            "adresse": "Rue Charles Watteeuw",
+            "ville": "Roubaix",
+            "etat": "COMPLET",
+            "dispo": 0,
+            "max": 0,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "RBX0003",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1794901741345,
+                        50.690951337
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "COMPLET"
+        },
+        {
+            "libelle": "Parking Bethune-Lafayette",
+            "adresse": "6 rue de la Riviere",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 237,
+            "max": 465,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0013",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0650590347566,
+                        50.634141012008
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "235"
+        },
+        {
+            "libelle": "Parking Nouveau Siecle",
+            "adresse": "19 place Mendes France",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 507,
+            "max": 733,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0014",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0593967678177,
+                        50.63730545319
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "505"
+        },
+        {
+            "libelle": "Parking Gare Lille Europe",
+            "adresse": "Avenue de Cologne",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 407,
+            "max": 600,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0008",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0759704966956,
+                        50.639769688829
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "405"
+        },
+        {
+            "libelle": "Parking Miss Cavell",
+            "adresse": "Avenue Allende",
+            "ville": "Tourcoing",
+            "etat": "FERME",
+            "dispo": 66,
+            "max": 273,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "TCG0002",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1648687467852,
+                        50.722539541098
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "FERME"
+        },
+        {
+            "libelle": "Parking Mac Arthur Glen (Lannoy)",
+            "adresse": "Rue Charles Watteeuw",
+            "ville": "Roubaix",
+            "etat": "OUVERT",
+            "dispo": 719,
+            "max": 403,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "RBX0002",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.181234139862,
+                        50.690973242188
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "520"
+        },
+        {
+            "libelle": "Parking LA POSTE",
+            "adresse": "Rue de la Halle",
+            "ville": "Roubaix",
+            "etat": "OUVERT",
+            "dispo": 68,
+            "max": 82,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "RBX0005",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1760089524747,
+                        50.690320001482
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "65"
+        },
+        {
+            "libelle": "Parking CHURCHILL",
+            "adresse": "Rue du president Vincent Auriol",
+            "ville": "Roubaix",
+            "etat": "OUVERT",
+            "dispo": 442,
+            "max": 450,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "RBX0001",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1788753442327,
+                        50.689338455964
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "440"
+        },
+        {
+            "libelle": "Parking Opera",
+            "adresse": "Avenue Carnot",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 208,
+            "max": 450,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0009",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0665484219941,
+                        50.639304676445
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "205"
+        },
+        {
+            "libelle": "Parking CENTRE",
+            "adresse": "Rue Neuve",
+            "ville": "Roubaix",
+            "etat": "OUVERT",
+            "dispo": 24,
+            "max": 85,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "RBX0007",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1721265435623,
+                        50.691086648518
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "20"
+        },
+        {
+            "libelle": "Parking St Christophe",
+            "adresse": "Rue des Anges",
+            "ville": "Tourcoing",
+            "etat": "LIBRE",
+            "dispo": 721,
+            "max": 757,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "TCG0003",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1563648534293,
+                        50.719799610647
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "LIBRE"
+        },
+        {
+            "libelle": "Parking Les Tanneurs",
+            "adresse": "Rue du Molinel",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 304,
+            "max": 563,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0003",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0672349762071,
+                        50.634256949421
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "300"
+        },
+        {
+            "libelle": "Parking LESPRES",
+            "adresse": "Boulevard de l'Ouest",
+            "ville": "Villeneuve d'Ascq",
+            "etat": ".",
+            "dispo": 0,
+            "max": 1000,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "VAQ0003",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1242027983609,
+                        50.649215508009
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "."
+        },
+        {
+            "libelle": "Parking Liberte",
+            "adresse": "Facade de l'Esplanade",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 514,
+            "max": 570,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0015",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.050743951473,
+                        50.638697418072
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "510"
+        },
+        {
+            "libelle": "Parking 4CANTONS",
+            "adresse": "Avenue Pointcare",
+            "ville": "Villeneuve d'Ascq",
+            "etat": "OUVERT",
+            "dispo": 978,
+            "max": 2000,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "VAQ0002",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1381764925587,
+                        50.604623035335
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "975"
+        },
+        {
+            "libelle": "Parking Republique",
+            "adresse": "Place de la Republique",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 175,
+            "max": 220,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0001",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0627240607784,
+                        50.631027434391
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "175"
+        },
+        {
+            "libelle": "Parking Plaza",
+            "adresse": "Rue Nationale",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 131,
+            "max": 323,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0002",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0583342892262,
+                        50.635121855785
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "130"
+        },
+        {
+            "libelle": "Parking Hotel de Ville",
+            "adresse": "Rue de la Bienfaisance",
+            "ville": "Tourcoing",
+            "etat": "FERME",
+            "dispo": 68,
+            "max": 434,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "TCG0001",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1588907023137,
+                        50.725413845879
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "FERME"
+        },
+        {
+            "libelle": "Parking Gare Lille Flandres",
+            "adresse": "Rue de Tournai",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 153,
+            "max": 374,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0005",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0724327352937,
+                        50.634836454356
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "150"
+        },
+        {
+            "libelle": "Parking GRAND RUE",
+            "adresse": "Avenue des Nations Unies",
+            "ville": "Roubaix",
+            "etat": "OUVERT",
+            "dispo": 678,
+            "max": 800,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "RBX0006",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.1756806048488,
+                        50.693330393965
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "675"
+        },
+        {
+            "libelle": "Parking Petit Paradis",
+            "adresse": "Facade Esplanade",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 250,
+            "max": 270,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0016",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0497335757003,
+                        50.644636697955
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "250"
+        },
+        {
+            "libelle": "Parking Grand Palais",
+            "adresse": "Boulevard des Citees Unies",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 1071,
+            "max": 1182,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0004",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0786011023232,
+                        50.63148067697
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "1070"
+        },
+        {
+            "libelle": "Parking Grand Place",
+            "adresse": "Place du General de Gaulle",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 16,
+            "max": 342,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0011",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0636346881819,
+                        50.637110908577
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "15"
+        },
+        {
+            "libelle": "Parking Tours",
+            "adresse": "Boulevard de Turin",
+            "ville": "Lille",
+            "etat": "OUVERT",
+            "dispo": 21,
+            "max": 160,
+            "datemaj": "2024-02-05T20:24:00+00:00",
+            "id": "LIL0007",
+            "coordgeo": null,
+            "geometry": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        3.0766799313087,
+                        50.638788702516
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "aff": "20"
+        }
+    ]
+}
