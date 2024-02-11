@@ -1,5 +1,19 @@
 # ETL on GCP : Parkings de la MEL (Métropole Européenne de Lille)
 
+- [ETL on GCP : Parkings de la MEL (Métropole Européenne de Lille)](#etl-on-gcp--parkings-de-la-mel-métropole-européenne-de-lille)
+- [1. GCP implementation](#1-gcp-implementation)
+  - [1.1. Environments, variables \& misc](#11-environments-variables--misc)
+  - [1.2. GCP configuration](#12-gcp-configuration)
+  - [1.2. Data collection](#12-data-collection)
+    - [1.2.1 CLI commands](#121-cli-commands)
+    - [1.2.2 notebook nb\_bigquery.ipynb:](#122-notebook-nb_bigqueryipynb)
+  - [1.3. Cloud Function](#13-cloud-function)
+    - [1.3.1. CLI commands](#131-cli-commands)
+    - [1.3.2. Cloud Function code](#132-cloud-function-code)
+    - [1.3.3. Deploying function with CLI](#133-deploying-function-with-cli)
+- [2. SELECT queries from BigQuery using pandas/pandas-gbq](#2-select-queries-from-bigquery-using-pandaspandas-gbq)
+
+
 # 1. GCP implementation
 
 ## 1.1. Environments, variables & misc
