@@ -86,6 +86,8 @@ gcloud billing projects link $PROJECT_ID --billing-account=******-******-******
 
 ## 1.2. Data collection
 
+### 1.2.1 CLI commands
+
 * journal.sh :
 
 ```bash
@@ -105,8 +107,9 @@ gcloud storage buckets create $FUNCTION_BUCKET
 bq mk $DATASET_NAME
 #delete dataset
 bq rm -r -f $DATASET_NAME
+```
 
-* nb_bigquery.ipynb:
+### 1.2.2 notebook nb_bigquery.ipynb:
 
 ```python
 from google.cloud import bigquery
@@ -301,9 +304,12 @@ for row in results:
     Row(('VAQ0003', '.', 0, 1000, '.', datetime.datetime(2024, 2, 5, 21, 8, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 2, 5, 22, 10, 57, 315993, tzinfo=datetime.timezone.utc)), {'station_id': 0, 'state': 1, 'available': 2, 'max': 3, 'display': 4, 'last_update': 5, 'record_timestamp': 6})
 
 
-``` 
+```
+```
 
 ## 1.3. Cloud Function
+
+### 1.3.1. CLI commands
 
 * journal.sh :
 
@@ -321,6 +327,8 @@ source venv_fct_extract/bin/activate
 pip install google-cloud-bigquery
 pip freeze > fct_extract/requirements.txt
 ```
+
+### 1.3.2. Cloud Function code
 
 * fct_extract/main.py :
 
@@ -386,6 +394,8 @@ def parkings_mel_pubsub(data, context):
 if __name__ == "__main__":
     parkings_mel_pubsub('data', 'context')
 ```
+
+### 1.3.3. Deploying function with CLI
 
 * journal.sh :
 
