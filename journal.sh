@@ -41,7 +41,8 @@ pip install matplotlib
 pip install jupyter
 
 # convert notebook to markdown
-jupyter nbconvert --to markdown pandas_bigquery_select.ipynb --output-dir=docs
+jupyter nbconvert --to markdown pandas_bigquery_select.ipynb --output-dir=notebooks_to_markdown
+jupyter nbconvert --to markdown nb_bigquery.ipynb --output-dir=notebooks_to_markdown
 
 # === 1. GCP project configuration ========================================================================
 
