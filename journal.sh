@@ -21,13 +21,29 @@ git commit -m "first commit"
 git remote add origin https://github.com/yzpt/parkings-mel.git
 git push -u origin main
 
-# venv
+# venv_fct
 python3 -m venv venv
 source venv/bin/activate
 pip install google-cloud-bigquery 
 pip install google-cloud-storage
 
-# 1. GCP project configuration
+# venv_dev
+python3 -m venv venv_dev
+source venv_dev/bin/activate
+pip install ipykernel
+pip install google-cloud-bigquery 
+pip install google-cloud-storage
+pip install pandas
+pip install pyarrow
+pip install pandas-gbq
+pip install tqdm
+pip install matplotlib
+pip install jupyter
+
+# convert notebook to markdown
+jupyter nbconvert --to markdown pandas_bigquery_select.ipynb --output-dir=docs
+
+# === 1. GCP project configuration ========================================================================
 
 # create a new project
 gcloud projects create $PROJECT_ID
@@ -52,7 +68,7 @@ gcloud billing accounts list
 gcloud billing projects link $PROJECT_ID --billing-account=******-******-******
 
 
-# 2. Data collection
+# === 2. Data collection ========================================================================
 
 # Enabling APIs: Build, Functions, Pub/Sub, Scheduler
 gcloud services enable cloudfunctions.googleapis.com
@@ -69,9 +85,9 @@ bq mk $DATASET_NAME
 #delete dataset
 bq rm -r -f $DATASET_NAME
 
-# --> nb_bigquery.ipynb
+# *** --> nb_bigquery.ipynb ***
 
-# 3. Cloud Function
+# === 3. Cloud Function ========================================================================
 # --> fct_extract/
 mkdir fct_extract
 touch fct_extract/main.py
